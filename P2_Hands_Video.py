@@ -4,6 +4,7 @@ import cv2
 import mediapipe as mp 
 
 #print(cv2.getBuildInformation())
+print(cv2.__version__)
 
 mp_drawing = mp.solutions.drawing_utils
 mp_hands = mp.solutions.hands
